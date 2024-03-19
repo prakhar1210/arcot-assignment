@@ -1,0 +1,27 @@
+/* CategoryDistributionChart.css */
+
+.chart-container {
+  width: 50%;
+  height: 100%;
+}
+
+.chart-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chart-container canvas {
+  max-width: 100%;
+  /* height: 300px; */
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+  .chart-container {
+    padding: 10px;
+  }
+}

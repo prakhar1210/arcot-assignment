@@ -1,0 +1,25 @@
+/* FinalPie.css */
+
+.graph-container {
+  width: 50%;
+  height: 100%;
+
+  margin: 0 auto;
+}
+
+.chart-container {
+  margin-top: 20px;
+  border: 1px solid #ccc; /* Add border for the chart container */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+.chart-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add hover effect with box-shadow */
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .graph-container {
+    padding: 0 10px; /* Add padding for smaller screens */
+  }
+}
